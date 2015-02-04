@@ -1,0 +1,97 @@
+--- !ruby/object:Gem::Specification
+name: test-unit-context
+version: !ruby/object:Gem::Version
+  version: 0.5.0
+platform: ruby
+authors:
+- kares
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2015-02-02 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: test-unit
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: 2.4.0
+  type: :runtime
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: 2.4.0
+- !ruby/object:Gem::Dependency
+  name: rake
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '0'
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - ">="
+      - !ruby/object:Gem::Version
+        version: '0'
+description: "Makes Test::Unit::TestCases 'contextable' and thus much\neasier to read
+  and write. If you've seen RSpec than it's the very same 'context \ndo ... end' re-invendet
+  for Test::Unit. Inspired by gem 'context' that does the\nsame for the 'old' Test::Unit
+  1.2.3 bundled with Ruby 1.8.x standard libraries."
+email:
+- self@kares.org
+executables: []
+extensions: []
+extra_rdoc_files:
+- README.md
+- LICENSE
+files:
+- ".gitignore"
+- ".travis.yml"
+- Gemfile
+- LICENSE
+- README.md
+- Rakefile
+- lib/test/unit/context.rb
+- lib/test/unit/context/context.rb
+- lib/test/unit/context/helpers.rb
+- lib/test/unit/context/shared.rb
+- lib/test/unit/context/spec.rb
+- lib/test/unit/context/version.rb
+- lib/test/unit/patches.rb
+- test-unit-context.gemspec
+- test/test/unit/context/hooks_test.rb
+- test/test/unit/context/shared_test.rb
+- test/test/unit/context/spec_spec.rb
+- test/test/unit/context/spec_test.rb
+- test/test/unit/context_test.rb
+- test/test/unit/patches_test.rb
+- test/test_helper.rb
+homepage: http://github.com/kares/test-unit-context
+licenses: []
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 2.2.2
+signing_key: 
+specification_version: 4
+summary: Context for Test::Unit (2.x)
+test_files: []
