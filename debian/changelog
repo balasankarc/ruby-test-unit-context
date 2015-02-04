@@ -1,5 +1,5 @@
-ruby-test-unit-context (0.5.0-1) UNRELEASED; urgency=medium
+ruby-test-unit-context (0.5.0-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #777050)
 
- -- Balasankar C <balasankarc@autistici.org>  Wed, 04 Feb 2015 19:57:40 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Wed, 04 Feb 2015 18:36:11 +0530
