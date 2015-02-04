@@ -1,0 +1,23 @@
+Source: ruby-test-unit-context
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb, rake
+Standards-Version: 3.9.5
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-test-unit-context.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-test-unit-context.git;a=summary
+Homepage: http://github.com/kares/test-unit-context
+Testsuite: autopkgtest
+XS-Ruby-Versions: all
+
+Package: ruby-test-unit-context
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+# test-unit (>= 2.4.0), rake (>= 0, development)
+Description: Context for Test::Unit (2.x)
+ Makes Test::Unit::TestCases 'contextable' and thus much
+ easier to read and write. If you've seen RSpec than it's the very same 'context
+ do ... end' re-invendet for Test::Unit. Inspired by gem 'context' that does the
+ same for the 'old' Test::Unit 1.2.3 bundled with Ruby 1.8.x standard libraries.
