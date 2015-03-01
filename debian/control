@@ -15,8 +15,7 @@ Package: ruby-test-unit-context
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-test-unit
-Description: Context for Test::Unit (2.x)
- Makes Test::Unit::TestCases 'contextable' and thus much  easier to read and 
- write. If you've seen RSpec than it's the very same 'context do ... end' 
- re-invendet for Test::Unit. Inspired by gem 'context' that does the same for 
- the 'old' Test::Unit 1.2.3 bundled with Ruby 1.8.x standard libraries.
+Description: context for the Test::Unit Ruby testing framework
+ This gem makes Test::Unit::TestCases 'contextable' and thus much easier to 
+ read and write. It is the implementation of 'context do ... end' from RSpec 
+ for Test::Unit. 
