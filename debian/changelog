@@ -1,3 +1,10 @@
+ruby-test-unit-context (0.5.0-2) unstable; urgency=medium
+
+  * Bump debhelper compatibility to 9.
+  * fix-tests.patch : Make tests support test-unit ~3.0 (Closes: #812937)
+
+ -- Balasankar C <balasankarc@autistici.org>  Mon, 01 Feb 2016 15:32:39 +0530
+
 ruby-test-unit-context (0.5.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #777050)
